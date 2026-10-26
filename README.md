@@ -12,7 +12,7 @@ The project demonstrates raster processing, terrain analysis, spatial reclassifi
 
 ### Featured Analysis
 
-!\[Combined terrain suitability with hillshade context]("https://github.com/GNSS-GLOBAL/qgis_spatial_analysis/blob/main/solar_seismic_monitoring_station/images/all_conditions_w_hillshade.png")
+!\[Combined terrain suitability with hillshade context](https://github.com/GNSS-GLOBAL/qgis_spatial_analysis/blob/main/solar_seismic_monitoring_station/images/all_conditions_w_hillshade.png)
 
 *Combined terrain suitability visualization with hillshade context. The classification reflects the modeled slope and aspect criteria, not a validated seismic station location.*
 
@@ -44,7 +44,7 @@ An SRTM digital elevation model (DEM) serves as the primary elevation dataset.
 
 Terrain derivatives are generated from the elevation surface to evaluate geographic characteristics relevant to site selection.
 
-!\[SRTM elevation surface rendered with pseudocolor]("https://github.com/GNSS-GLOBAL/qgis_spatial_analysis/blob/main/solar_seismic_monitoring_station/images/pseudocolor_srtm.png")
+!\[SRTM elevation surface rendered with pseudocolor](https://github.com/GNSS-GLOBAL/qgis_spatial_analysis/blob/main/solar_seismic_monitoring_station/images/pseudocolor_srtm.png)
 
 *Source elevation surface with pseudocolor rendering to reveal regional terrain variation.*
 
@@ -82,11 +82,11 @@ The original modeling workflow includes:
 
 These criteria originate from the initial terrain suitability exercise and do not independently establish suitability for seismic instrumentation or solar energy production.
 
-!\[Terrain classification using a five-degree maximum slope]("https://github.com/GNSS-GLOBAL/qgis_spatial_analysis/blob/main/solar_seismic_monitoring_station/images/slope_lte5.png")
+!\[Terrain classification using a five-degree maximum slope](https://github.com/GNSS-GLOBAL/qgis_spatial_analysis/blob/main/solar_seismic_monitoring_station/images/slope_lte5.png)
 
 *Terrain classification using a slope threshold of 5°.*
 
-!\[North-facing aspect classification]("https://github.com/GNSS-GLOBAL/qgis_spatial_analysis/blob/main/solar_seismic_monitoring_station/images/aspect_north.png")
+!\[North-facing aspect classification](https://github.com/GNSS-GLOBAL/qgis_spatial_analysis/blob/main/solar_seismic_monitoring_station/images/aspect_north.png)
 
 *Aspect classification highlighting terrain that meets the north-facing directional criterion.*
 
@@ -98,7 +98,7 @@ The resulting `all_conditions.tif` raster represents the combined terrain suitab
 
 This output demonstrates how multiple spatial constraints can be incorporated into a single analytical result.
 
-!\[Combined terrain suitability classification]("https://github.com/GNSS-GLOBAL/qgis_spatial_analysis/blob/main/solar_seismic_monitoring_station/images/all_conditions.png")
+!\[Combined terrain suitability classification](https://github.com/GNSS-GLOBAL/qgis_spatial_analysis/blob/main/solar_seismic_monitoring_station/images/all_conditions.png)
 
 *Combined classification before hillshade is used to provide additional visual context.*
 
